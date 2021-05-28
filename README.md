@@ -9,10 +9,10 @@
 
 ## Table of content
 
-- [Summary](##summary)
-- [Tasks](##Tasks)
-- [External links and references](##External links and references)
-- [License](##License)
+- [Summary](#Summary)
+- [Tasks](#Tasks)
+- [External links and references](#External-links-and-references)
+- [License](#License)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
