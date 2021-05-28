@@ -19,10 +19,10 @@
 ## Summary
 
 This project is dedicated to the QA Automation learning course leading by [Sergey Korol](https://github.com/sskorol) 
-<img alt="sskorol user avatar" src="https://avatars.githubusercontent.com/u/6638780?v=4" width="80" style="border-radius: 40px;">
+<a href="https://github.com/sskorol"><img alt="sskorol user avatar" src="https://avatars.githubusercontent.com/u/6638780?v=4" width="80" style="border-radius: 50%;"></a>
 
 My name is Oleksii Tarasiuk. You can find my GitHub account here: https://github.com/tigeral
-<a href="https://github.com/tigeral"><img alt="tigeral user avatar" src="https://avatars.githubusercontent.com/u/3876081?v=4" width="80" style="border-radius: 40px;"></a>
+<a href="https://github.com/tigeral"><img alt="tigeral user avatar" src="https://avatars.githubusercontent.com/u/3876081?v=4" width="80" style="border-radius: 50%;"></a>
 
 This repository will be populated with information and results of tasks received in scope of the QA Automation learning 
 course. However, NO confidential info from these tasks will be published here.
