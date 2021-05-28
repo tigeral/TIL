@@ -1,5 +1,6 @@
 # TIL
 > Today I Learned (QA automation playground)
+
 ![Project status | in progress](https://img.shields.io/badge/Project%20status-in%20progress-green)
 ![Tasks done | 1](https://img.shields.io/badge/Tasks%20done-1-orange)
 ![Last commit](https://img.shields.io/github/last-commit/tigeral/til)
