@@ -3,7 +3,7 @@
 ## What have I learned today?
 
 This time I had to write a script to call a CURL command-line tool to interact with some web application served within a
-Docker image.
+Docker container.
 
 I was working on a Windows workstation at the moment when I just started this task. So, I decided to write this 
 script on the Windows batch programming language.  
