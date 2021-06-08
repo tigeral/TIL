@@ -2,7 +2,7 @@
 
 @REM parse and validate command-line arguments. Show help info if requested.
 if [%1]==[/?] goto :help
-if [%2]==[] goto :help
+if [%2]==[] goto :invalid_arguments
 echo %* |find "/?" > nul
 if errorlevel 1 goto :main
 
