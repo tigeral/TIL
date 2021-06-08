@@ -12,6 +12,8 @@
 
 - [Summary](#Summary)
 - [Tasks](#Tasks)
+  - [Task #1. Intro](#task-1-intro)
+  - [Task #2. Start using scripts](#task-2-start-using-scripts)
 - [External links and references](#External-links-and-references)
 - [License](#License)
 
@@ -34,9 +36,15 @@ Technologies stack for this project is not defined yet.
 
 ## Tasks
 
-1. Intro - create GitHub repository.
+###Task #1. Intro
+> Create GitHub repository.
    - Task description document: [docs/tasks/task1_github_repository/task.md](docs/tasks/task1_github_repository/task.md).
    - Results summary: [docs/tasks/task1_github_repository/summary.md](docs/tasks/task1_github_repository/summary.md).
+###Task #2. Start using scripts
+> Create script that downloads image from a web server (served by Docker) using CURL tool.
+   - Task description document: [docs/tasks/task2_curl_script_with_docker/task.md](docs/tasks/task2_curl_script_with_docker/task.md).
+   - Results summary: [docs/tasks/task2_curl_script_with_docker/summary.md](docs/tasks/task2_curl_script_with_docker/summary.md).
+   - Result script: [task2_curl_script_with_docker/get-image.bat](task2_curl_script_with_docker/get-image.bat)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
