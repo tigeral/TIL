@@ -14,6 +14,7 @@
 - [Tasks](#Tasks)
   - [Task #1. Intro](#task-1-intro)
   - [Task #2. Start using scripts](#task-2-start-using-scripts)
+  - [Task #3. Learn about pairwise testing](#task-3-learn-about-pairwise-testing)
 - [External links and references](#External-links-and-references)
 - [License](#License)
 
@@ -45,6 +46,11 @@ Technologies stack for this project is not defined yet.
    - Task description document: [docs/tasks/task2_curl_script_with_docker/task.md](docs/tasks/task2_curl_script_with_docker/task.md).
    - Results summary: [docs/tasks/task2_curl_script_with_docker/summary.md](docs/tasks/task2_curl_script_with_docker/summary.md).
    - Result script: [task2_curl_script_with_docker/get-image.bat](task2_curl_script_with_docker/get-image.bat)
+###Task #3. Learn about pairwise testing
+> Use Microsoft PICT tool to generate a list possible test tech-stack technologies options set.
+   - Task description document: [docs/tasks/task3_pairwise_testing/task.md](docs/tasks/task3_pairwise_testing/task.md).
+   - Results summary: [docs/tasks/task3_pairwise_testing/summary.md](docs/tasks/task3_pairwise_testing/summary.md).
+   - Result files: [task3_pairwise_testing](task3_pairwise_testing)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

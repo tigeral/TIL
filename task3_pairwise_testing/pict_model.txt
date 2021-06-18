@@ -1,0 +1,51 @@
+#
+# This is a PICT tool model file according to the test task. I used assets from the task description to fill the table
+# below.
+# I added None values for the case when some particular parameter not used. For example, web browser is not used for the
+# native mobile app testing.
+# I added xUnit option for the unit testing framework parameter because there is no other option for the C# programming
+# language and its better than use NOne in this case.
+#
+
+Application Type: Web, Mobile Native, Hybrid
+Mobile Platform: iOS, Android
+Browser: Chrome, Firefox, Safari, None
+Programming Language: Java, JS, Python, Swift, C#
+Unit Framework: TestNG, JUnit, Mocha, Jest, Jasmine, PyTest, Unittest, Nose2, xUnit
+Web Frameworks: Selenide, Serenity, WebdriverIO, Cypress, CodeceptJS, Puppeteer, Playwright, Helium
+Mobile Frameworks: Appium, Espresso, XCUITest, Detox, Xamarin
+Infrastructure: Selenium Grid, Selenoid
+
+# Exclude browser for native and hybrid application types
+IF [Application Type] <> "Web" THEN [Browser] = "None";
+
+# It is hard to filter programming languages or unit test framework by application type or by mobile platform because
+# any of the mentioned programming languages could be used to build a web/mobile native/hybrid application for iOS and
+# Android (except web+swift). But, in real life project this list will be reduced significantly according to the
+# Application Under Test tech stack.
+IF [Application Type] = "Web" THEN [Programming Language] <> "Swift";
+
+# Specify compatible Programming Language and Unit Framework pairs
+IF [Programming Language] = "Java" THEN [Unit Framework] in {"TestNG", "JUnit"};
+IF [Programming Language] = "JS" THEN [Unit Framework] in {"Mocha", "Jest", "Jasmine"};
+IF [Programming Language] = "Python" THEN [Unit Framework] in {"PyTest", "Nose2"};
+IF [Programming Language] = "Swift" THEN [Unit Framework] in {"Unittest"};
+IF [Programming Language] = "C#" THEN [Unit Framework] in {"xUnit"};
+
+# Web framework can be used with the native mobile application (web API, etc.) regardless to the used programming
+# language. It is possible to use Java + TestNG for unit testing and JS + WebdriverIO for web API test.
+# However, we can filter frameworks if we are talking about the QA engineer single Programming Language experience and
+# we have to choose a unit and web framework testing compatible with this programming language.
+IF [Programming Language] = "Java" THEN [Web Frameworks] in {"Selenide", "Serenity"};
+IF [Programming Language] = "JS" THEN [Web Frameworks] in {"WebdriverIO", "Cypress", "ConceptJS", "Puppeteer"};
+IF [Web Frameworks] = "Playwright" THEN [Programming Language] in {"Java", "JS", "Python", "C#"};
+IF [Web Frameworks] = "Playwright" THEN [Programming Language] in {"Java", "Python"};
+
+# Mobile Frameworks are usually platform-dependent. Lets filter them.
+# We don't care if this a native app or web based. We should only filter by platform and programming language.
+IF [Mobile Frameworks] = "Appium" THEN [Programming Language] in {"Java", "JS", "Python", "C#"};
+IF [Mobile Frameworks] = "Espresso" THEN [Programming Language] = "Java" AND [Mobile Platform] = "Android";
+IF [Mobile Frameworks] = "XCUITest" THEN [Programming Language] = "Swift" AND [Mobile Platform] = "iOS";
+IF [Mobile Frameworks] = "Detox" THEN [Programming Language] = "JS";
+IF [Mobile Frameworks] = "Xamarin" THEN [Programming Language] = "C#";
+

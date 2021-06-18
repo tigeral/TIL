@@ -1,0 +1,65 @@
+Application Type,    Mobile Platform,    Browser,   Programming Language,   Unit Framework,   Web Frameworks,   Mobile Frameworks,   Infrastructure
+Web,                 iOS,                None,      Python,                 Nose2,            Playwright,       Appium,              Selenium Grid
+Web,                 Android,            Safari,    C#,                     xUnit,            CodeceptJS,       Xamarin,             Selenoid
+Web,                 Android,            Chrome,    Python,                 PyTest,           WebdriverIO,      Appium,              Selenoid
+Web,                 iOS,                Firefox,   C#,                     xUnit,            WebdriverIO,      Xamarin,             Selenium Grid
+Mobile Native,       iOS,                None,      Swift,                  Unittest,         Serenity,         XCUITest,            Selenium Grid
+Web,                 Android,            Firefox,   Python,                 PyTest,           Playwright,       Appium,              Selenoid
+Hybrid,              iOS,                None,      Swift,                  Unittest,         Helium,           XCUITest,            Selenoid
+Web,                 Android,            Safari,    Python,                 Nose2,            Puppeteer,        Appium,              Selenoid
+Web,                 iOS,                Chrome,    Python,                 Nose2,            CodeceptJS,       Appium,              Selenium Grid
+Hybrid,              iOS,                None,      Swift,                  Unittest,         Puppeteer,        XCUITest,            Selenium Grid
+Mobile Native,       iOS,                None,      Swift,                  Unittest,         Selenide,         XCUITest,            Selenium Grid
+Web,                 Android,            Safari,    Java,                   TestNG,           Selenide,         Espresso,            Selenoid
+Web,                 Android,            Firefox,   Python,                 Nose2,            Serenity,         Appium,              Selenoid
+Web,                 Android,            Chrome,    Java,                   JUnit,            Selenide,         Appium,              Selenium Grid
+Web,                 iOS,                Safari,    Python,                 PyTest,           Serenity,         Appium,              Selenium Grid
+Web,                 Android,            Chrome,    C#,                     xUnit,            Helium,           Appium,              Selenium Grid
+Web,                 Android,            Chrome,    JS,                     Mocha,            Puppeteer,        Detox,               Selenium Grid
+Mobile Native,       Android,            None,      Python,                 PyTest,           CodeceptJS,       Appium,              Selenoid
+Hybrid,              Android,            None,      Java,                   JUnit,            Serenity,         Espresso,            Selenoid
+Mobile Native,       iOS,                None,      C#,                     xUnit,            Serenity,         Xamarin,             Selenoid
+Hybrid,              iOS,                None,      JS,                     Jasmine,          Cypress,          Detox,               Selenoid
+Web,                 Android,            Firefox,   Python,                 PyTest,           Selenide,         Appium,              Selenium Grid
+Web,                 iOS,                Safari,    JS,                     Jest,             WebdriverIO,      Detox,               Selenium Grid
+Web,                 iOS,                Safari,    Python,                 Nose2,            Selenide,         Appium,              Selenium Grid
+Web,                 Android,            Chrome,    Java,                   TestNG,           Serenity,         Espresso,            Selenium Grid
+Hybrid,              iOS,                None,      Swift,                  Unittest,         CodeceptJS,       XCUITest,            Selenium Grid
+Web,                 iOS,                Firefox,   C#,                     xUnit,            Puppeteer,        Xamarin,             Selenium Grid
+Web,                 Android,            Firefox,   Python,                 PyTest,           Cypress,          Appium,              Selenium Grid
+Hybrid,              Android,            None,      Python,                 Nose2,            WebdriverIO,      Appium,              Selenoid
+Web,                 Android,            Chrome,    JS,                     Jest,             Cypress,          Appium,              Selenoid
+Web,                 Android,            Safari,    Python,                 Nose2,            Cypress,          Appium,              Selenoid
+Mobile Native,       iOS,                None,      JS,                     Mocha,            Cypress,          Detox,               Selenoid
+Hybrid,              Android,            None,      Python,                 PyTest,           Helium,           Appium,              Selenium Grid
+Mobile Native,       Android,            None,      JS,                     Jest,             Puppeteer,        Appium,              Selenoid
+Web,                 Android,            Firefox,   JS,                     Jasmine,          WebdriverIO,      Appium,              Selenium Grid
+Mobile Native,       iOS,                None,      Java,                   TestNG,           Selenide,         Appium,              Selenium Grid
+Web,                 Android,            Chrome,    C#,                     xUnit,            Cypress,          Xamarin,             Selenoid
+Web,                 Android,            Chrome,    JS,                     Jasmine,          Puppeteer,        Detox,               Selenoid
+Hybrid,              iOS,                None,      JS,                     Jest,             WebdriverIO,      Detox,               Selenoid
+Web,                 Android,            Firefox,   Java,                   JUnit,            Selenide,         Espresso,            Selenium Grid
+Hybrid,              Android,            None,      C#,                     xUnit,            Selenide,         Xamarin,             Selenoid
+Web,                 Android,            Safari,    JS,                     Jasmine,          WebdriverIO,      Appium,              Selenium Grid
+Hybrid,              iOS,                None,      JS,                     Mocha,            WebdriverIO,      Appium,              Selenoid
+Web,                 Android,            Chrome,    Python,                 Nose2,            Playwright,       Appium,              Selenium Grid
+Web,                 Android,            Safari,    Java,                   JUnit,            Selenide,         Espresso,            Selenium Grid
+Web,                 Android,            Firefox,   C#,                     xUnit,            Helium,           Xamarin,             Selenium Grid
+Mobile Native,       Android,            None,      Java,                   JUnit,            Selenide,         Espresso,            selenium Grid
+Mobile Native,       iOS,                None,      Python,                 Nose2,            Playwright,       Appium,              Selenium Grid
+Web,                 iOS,                Firefox,   Python,                 PyTest,           Puppeteer,        Appium,              Selenoid
+Web,                 Android,            Firefox,   JS,                     Jest,             WebdriverIO,      Detox,               Selenoid
+Mobile Native,       iOS,                None,      Swift,                  Unittest,         WebdriverIO,      XCUITest,            Selenium Grid
+Web,                 Android,            Safari,    Python,                 Nose2,            Playwright,       Appium,              Selenoid
+Web,                 Android,            Firefox,   Java,                   TestNG,           Serenity,         Appium,              Selenoid
+Web,                 Android,            Safari,    Python,                 Nose2,            Helium,           Appium,              Selenium Grid
+Mobile Native,       iOS,                None,      Python,                 Nose2,            Helium,           Appium,              Selenoid
+Web,                 iOS,                Firefox,   JS,                     Mocha,            Cypress,          Detox,               Selenoid
+Mobile Native,       Android,            None,      JS,                     Jasmine,          Cypress,          Appium,              Selenoid
+Web,                 iOS,                Firefox,   C#,                     xUnit,            CodeceptJS,       Xamarin,             Selenium Grid
+Hybrid,              Android,            None,      Java,                   TestNG,           Serenity,         Espresso,            Selenium Grid
+Hybrid,              iOS,                None,      Python,                 PyTest,           Playwright,       Appium,              Selenoid
+Web,                 iOS,                Safari,    JS,                     Mocha,            Cypress,          Detox,               Selenium Grid
+Web,                 iOS,                Chrome,    Java,                   JUnit,            Serenity,         Appium,              Selenoid
+Mobile Native,       iOS,                None,      Swift,                  Unittest,         Cypress,          XCUITest,            Selenoid
+
